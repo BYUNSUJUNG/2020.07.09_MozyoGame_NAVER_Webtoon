@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\FindPan.cs" />
      <Compile Include="Assets\Scripts\Meat.cs" />
+     <None Include="Assets\Images\Main\아이콘 수정참고.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

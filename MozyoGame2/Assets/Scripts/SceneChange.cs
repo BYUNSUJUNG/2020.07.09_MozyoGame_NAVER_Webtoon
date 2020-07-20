@@ -12,6 +12,10 @@ public class SceneChange : MonoBehaviour {
     public void StoreScene() {
         Debug.Log("상점이동");
 		SceneManager.LoadScene("StoreScene");
+	} 
+	public void MainScene() {
+        Debug.Log("메인이동");
+		SceneManager.LoadScene("MainScene");
 	}
 	public void BagScene() {
         Debug.Log("가방이동");

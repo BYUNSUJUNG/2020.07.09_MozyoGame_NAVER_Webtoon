@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActivityImageChange.cs" />
     <Compile Include="Assets\Scripts\FindPan.cs" />
+    <Compile Include="Assets\Scripts\MainImageChange.cs" />
     <Compile Include="Assets\Scripts\Meat.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
     <None Include="Assets\Images\Main\아이콘 수정참고.txt" />

@@ -4,5 +4,35 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 85ff1ac368b99794ca5875e4ee99c084
+  - enabled: 1
+    path: Assets/Scenes/ActivityScene.unity
+    guid: 06b7a1892ba287d4e9bb4103cdd11277
+  - enabled: 1
+    path: Assets/Scenes/BarbecuePlaceGameScene.uniy.unity
+    guid: 2a95b22dc3baa6046928db35cd3d20c6
+  - enabled: 1
+    path: Assets/Scenes/CatGameScene.unity
+    guid: 9b46ab0727104a143aab2ea1ffb77b37
+  - enabled: 1
+    path: Assets/Scenes/FindPanGameScene.unity
+    guid: 09e16f63594b4b543b917c3d6a7f5953
+  - enabled: 0
+    path: Assets/Scenes/IllustratedBookScene2.unity
+    guid: 357a5f8039bbb86469dbef1aa9810fd6
+  - enabled: 0
+    path: Assets/Scenes/StoreScene2.unity
+    guid: b9be291a8f76fc84db63f2e9ed683b79
+  - enabled: 1
+    path: Assets/Scenes/IllustratedBookScene.unity
+    guid: 10bd7728c5f809b499db75ea37ec16c1
+  - enabled: 1
+    path: Assets/Scenes/StoreScene.unity
+    guid: 745611aa6d834e748b6dad8272482687
+  - enabled: 1
+    path: Assets/Scenes/BagScene.unity
+    guid: 9c44321b7a332b244ad98389f7ecc78a
   m_configObjects: {}

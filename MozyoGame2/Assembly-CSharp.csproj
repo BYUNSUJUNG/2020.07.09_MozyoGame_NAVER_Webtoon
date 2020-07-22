@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\MainImageChange.cs" />
     <Compile Include="Assets\Scripts\Meat.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
+    <Compile Include="Assets\Scripts\StoreImageChange.cs" />
     <None Include="Assets\Images\Main\아이콘 수정참고.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

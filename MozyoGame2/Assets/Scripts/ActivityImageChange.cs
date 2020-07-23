@@ -29,4 +29,11 @@ public class ActivityImageChange : MonoBehaviour
         obj[2].SetActive(false);
         obj[3].SetActive(false);
     }
+    public void HappyActivity()
+    {
+        obj[0].SetActive(false);
+        obj[1].SetActive(false);
+        obj[2].SetActive(true);
+        obj[3].SetActive(false);
+    }
 }

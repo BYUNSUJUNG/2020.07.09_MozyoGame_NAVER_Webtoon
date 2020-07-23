@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ActivityScene.unity
     guid: 06b7a1892ba287d4e9bb4103cdd11277
   - enabled: 1
-    path: Assets/Scenes/BarbecuePlaceGameScene.uniy.unity
-    guid: 2a95b22dc3baa6046928db35cd3d20c6
-  - enabled: 1
     path: Assets/Scenes/FindPanGameScene.unity
     guid: 09e16f63594b4b543b917c3d6a7f5953
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BagScene.unity
     guid: 9c44321b7a332b244ad98389f7ecc78a
+  - enabled: 1
+    path: Assets/Scenes/BarbecuePlaceGameScene.unity
+    guid: 2a95b22dc3baa6046928db35cd3d20c6
   m_configObjects: {}

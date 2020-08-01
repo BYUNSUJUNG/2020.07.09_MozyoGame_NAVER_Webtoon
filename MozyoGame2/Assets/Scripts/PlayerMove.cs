@@ -4,33 +4,32 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float maxSpeed;
-    Rigidbody2D rigid;
 
-    void Awake()
-    {
-        rigid = GetComponent<Rigidbody2D>();  
-    }
+    public float speed;
+    private Vector3 vector;
+
     
+
+    void Start()
+    {
+    }
     void Update()
-    {
-        if (Input.GetButtonUp("Horizontal")) {
-            rigid.velocity = new Vector2(rigid.velocity.normalized.x *500f, rigid.velocity.y);
-        }
-        Debug.Log(Input.GetAxisRaw("Horizontal")); 
-    }
-/* 
-    void FixedUpdate()
-    {
-        // Move By Key Control
-        float h = Input.GetAxisRaw("Horizontal");
-        rigid.AddForce(Vector2.right * h, ForceMode2D.Impulse);
+    {   
         
-        if (rigid.velocity.x > maxSpeed) // Right Max Speed
-            rigid.velocity = new Vector2(maxSpeed, rigid.velocity.y);
-        else if (rigid.velocity.x < maxSpeed * (-1))
-            rigid.velocity = new Vector2(maxSpeed * (-1), rigid.velocity.y);
-    
 
-    }*/
+        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0) {
+            
+            
+            vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
+
+            if (vector.x != 0)
+            {
+                transform.Translate(vector.x * speed, 0, 0);
+            }
+            else if (vector.y != 0) {
+                transform.Translate(0, vector.y * speed, 0);
+            }
+
+        }
+    }
 }

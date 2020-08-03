@@ -63,10 +63,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActivityImageChange.cs" />
+    <Compile Include="Assets\Scripts\BarbecuePlaceEvent.cs" />
+    <Compile Include="Assets\Scripts\BeautySalonEventcs.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
+    <Compile Include="Assets\Scripts\ClothingStoreEvent.cs" />
     <Compile Include="Assets\Scripts\Event.cs" />
     <Compile Include="Assets\Scripts\FindPan.cs" />
+    <Compile Include="Assets\Scripts\GuitarStudyEvent.cs" />
+    <Compile Include="Assets\Scripts\HomeEvent.cs" />
+    <Compile Include="Assets\Scripts\JudoStudyEvent.cs" />
+    <Compile Include="Assets\Scripts\LibraryEvent.cs" />
     <Compile Include="Assets\Scripts\MainImageChange.cs" />
+    <Compile Include="Assets\Scripts\MartEvent.cs" />
     <Compile Include="Assets\Scripts\Meat.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />

@@ -7,17 +7,15 @@ public class MartEvent : MonoBehaviour
 {
     public GameObject Player;
 
-     void OnTriggerEnter2D(Collider2D collision)
-        {
-            Debug.Log("충돌1");
-        }
+    public GameObject MartObj;
+
+
     void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("충돌");
         if (collision.gameObject == Player) {
             if (Input.GetKey(KeyCode.Z))
             {
-                SceneManager.LoadScene("MartScene");
+                MartObj.SetActive(true);
             } 
         }
     }

@@ -7,13 +7,15 @@ public class LibraryEvent : MonoBehaviour
 {
     public GameObject Player;
 
+    public GameObject LibraryObj;
+
+
     void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("충돌");
         if (collision.gameObject == Player) {
             if (Input.GetKey(KeyCode.Z))
             {
-                SceneManager.LoadScene("LibraryScene");
+                LibraryObj.SetActive(true);
             } 
         }
     }

@@ -7,17 +7,15 @@ public class JudoStudyEvent : MonoBehaviour
 {
     public GameObject Player;
 
-     void OnTriggerEnter2D(Collider2D collision)
-        {
-            Debug.Log("충돌1");
-        }
+    public GameObject JudoStudyObj;
+
+
     void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("충돌");
         if (collision.gameObject == Player) {
             if (Input.GetKey(KeyCode.Z))
             {
-                SceneManager.LoadScene("JudoStudyScene");
+                JudoStudyObj.SetActive(true);
             } 
         }
     }

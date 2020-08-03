@@ -7,17 +7,15 @@ public class GuitarStudyEvent : MonoBehaviour
 {
     public GameObject Player;
 
-     void OnTriggerEnter2D(Collider2D collision)
-        {
-            Debug.Log("충돌1");
-        }
+    public GameObject GuitarStudyObj;
+
+
     void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("충돌");
         if (collision.gameObject == Player) {
             if (Input.GetKey(KeyCode.Z))
             {
-                SceneManager.LoadScene("GuitarStudyScene");
+                GuitarStudyObj.SetActive(true);
             } 
         }
     }

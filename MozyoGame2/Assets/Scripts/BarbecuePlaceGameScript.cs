@@ -16,7 +16,7 @@ public class BarbecuePlaceGameScript : MonoBehaviour {
     public GameObject Backobj;
 
 	void Start () {
-		score.text = "0";
+		//score.text = "0";
         meat01.SetActive(true);
         meat02.SetActive(false);
         meat03.SetActive(false);

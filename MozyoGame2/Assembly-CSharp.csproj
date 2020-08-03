@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActivityImageChange.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
+    <Compile Include="Assets\Scripts\Event.cs" />
     <Compile Include="Assets\Scripts\FindPan.cs" />
     <Compile Include="Assets\Scripts\MainImageChange.cs" />
     <Compile Include="Assets\Scripts\Meat.cs" />

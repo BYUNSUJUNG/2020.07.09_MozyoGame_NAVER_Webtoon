@@ -7,12 +7,15 @@ public class BarbecuePlaceEvent : MonoBehaviour
 {
     public GameObject Player;
 
+    public GameObject BarbecuePlaceObj;
+
+
     void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject == Player) {
             if (Input.GetKey(KeyCode.Z))
             {
-                SceneManager.LoadScene("BarbecuePlaceGameScene");
+                BarbecuePlaceObj.SetActive(true);
             } 
         }
     }

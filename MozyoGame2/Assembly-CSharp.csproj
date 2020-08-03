@@ -64,10 +64,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActivityImageChange.cs" />
     <Compile Include="Assets\Scripts\BarbecuePlaceEvent.cs" />
-    <Compile Include="Assets\Scripts\BeautySalonEventcs.cs" />
+    <Compile Include="Assets\Scripts\BarbecuePlaceGameScript.cs" />
+    <Compile Include="Assets\Scripts\BeautySalonEvent.cs" />
+    <Compile Include="Assets\Scripts\BeautySalonImageChange.cs" />
+    <Compile Include="Assets\Scripts\BeautySalonScript.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
-    <Compile Include="Assets\Scripts\ClothingStoreEvent.cs" />
-    <Compile Include="Assets\Scripts\Event.cs" />
+    <Compile Include="Assets\Scripts\ClothingStoreImageChange.cs" />
     <Compile Include="Assets\Scripts\FindPan.cs" />
     <Compile Include="Assets\Scripts\GuitarStudyEvent.cs" />
     <Compile Include="Assets\Scripts\HomeEvent.cs" />
@@ -75,7 +77,6 @@
     <Compile Include="Assets\Scripts\LibraryEvent.cs" />
     <Compile Include="Assets\Scripts\MainImageChange.cs" />
     <Compile Include="Assets\Scripts\MartEvent.cs" />
-    <Compile Include="Assets\Scripts\Meat.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\StoreImageChange.cs" />

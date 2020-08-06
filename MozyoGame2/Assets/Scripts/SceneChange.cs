@@ -9,10 +9,16 @@ public class SceneChange : MonoBehaviour {
 		Debug.Log("활동이동");
 		SceneManager.LoadScene("ActivityScene");
 	}
+
 	public void TownScene() {
         Debug.Log("마을이동");
 		SceneManager.LoadScene("TownScene");
 	}
+	public void SubwayScene() {
+        Debug.Log("지하철이동");
+		SceneManager.LoadScene("SubWayScene");
+	}
+
 	public void BarbecuePlaceGameScene() {
 		Debug.Log("고깃집이동");
 		SceneManager.LoadScene("BarbecuePlaceGameScene");

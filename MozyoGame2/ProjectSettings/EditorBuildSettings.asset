@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BarbecuePlaceGameScene.unity
     guid: 2a95b22dc3baa6046928db35cd3d20c6
+  - enabled: 1
+    path: Assets/Scenes/SeaScene.unity
+    guid: 5e87d6e309e94f54d882bff8f6beece8
+  - enabled: 1
+    path: Assets/Scenes/MountainScene.unity
+    guid: 1c66320e53cbf5d46ac09672b6a97d38
+  - enabled: 1
+    path: Assets/Scenes/TownScene.unity
+    guid: 1bd29b88eec3a064795042fc308551bd
   m_configObjects: {}

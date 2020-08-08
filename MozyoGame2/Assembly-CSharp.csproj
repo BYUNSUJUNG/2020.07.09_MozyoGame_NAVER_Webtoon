@@ -84,6 +84,8 @@
     <Compile Include="Assets\Scripts\MainImageChange.cs" />
     <Compile Include="Assets\Scripts\MartEvent.cs" />
     <Compile Include="Assets\Scripts\MartScript.cs" />
+    <Compile Include="Assets\Scripts\PicnicEvent.cs" />
+    <Compile Include="Assets\Scripts\PicnicScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\StoreImageChange.cs" />

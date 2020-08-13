@@ -95,6 +95,8 @@
     <Compile Include="Assets\Scripts\Town\GuitarStudyScript.cs" />
     <Compile Include="Assets\Scripts\Town\HomeEvent.cs" />
     <Compile Include="Assets\Scripts\Town\HomeScript.cs" />
+    <Compile Include="Assets\Scripts\Town\HospitalEvent.cs" />
+    <Compile Include="Assets\Scripts\Town\HospitalScript.cs" />
     <Compile Include="Assets\Scripts\Town\JudoStudyEvent.cs" />
     <Compile Include="Assets\Scripts\Town\JudoStudyScript.cs" />
     <Compile Include="Assets\Scripts\Town\LibraryEvent.cs" />

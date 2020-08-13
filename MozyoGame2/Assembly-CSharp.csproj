@@ -68,7 +68,11 @@
     <Compile Include="Assets\Scripts\Box03Button.cs" />
     <Compile Include="Assets\Scripts\BusEvent.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
+    <Compile Include="Assets\Scripts\DollGameEvent.cs" />
+    <Compile Include="Assets\Scripts\DollGameScript.cs" />
     <Compile Include="Assets\Scripts\FindPan.cs" />
+    <Compile Include="Assets\Scripts\Mountain\PianoStudyEvent.cs" />
+    <Compile Include="Assets\Scripts\Mountain\PianoStudyScript.cs" />
     <Compile Include="Assets\Scripts\Mountain\PicnicEvent.cs" />
     <Compile Include="Assets\Scripts\Mountain\PicnicScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
@@ -82,6 +86,8 @@
     <Compile Include="Assets\Scripts\Town\BeautySalonEvent.cs" />
     <Compile Include="Assets\Scripts\Town\BeautySalonImageChange.cs" />
     <Compile Include="Assets\Scripts\Town\BeautySalonScript.cs" />
+    <Compile Include="Assets\Scripts\Town\CafeEvent.cs" />
+    <Compile Include="Assets\Scripts\Town\CafeScript.cs" />
     <Compile Include="Assets\Scripts\Town\ClothingStoreEvent.cs" />
     <Compile Include="Assets\Scripts\Town\ClothingStoreScript.cs" />
     <Compile Include="Assets\Scripts\Town\GuitarStudyEvent.cs" />

@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\Box03Button.cs" />
     <Compile Include="Assets\Scripts\BusEvent.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
-    <Compile Include="Assets\Scripts\DollGameEvent.cs" />
     <Compile Include="Assets\Scripts\DollGameScript.cs" />
     <Compile Include="Assets\Scripts\FindPan.cs" />
     <Compile Include="Assets\Scripts\Mountain\PianoStudyEvent.cs" />
@@ -79,6 +78,8 @@
     <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\Sea\PensionEvent.cs" />
     <Compile Include="Assets\Scripts\Sea\PensionScript.cs" />
+    <Compile Include="Assets\Scripts\Sea\TurkeyIcecreamEvent.cs" />
+    <Compile Include="Assets\Scripts\Sea\TurkeyIcecreamScript.cs" />
     <Compile Include="Assets\Scripts\StoreImageChange.cs" />
     <Compile Include="Assets\Scripts\SubwayEvent.cs" />
     <Compile Include="Assets\Scripts\Town\BarbecuePlaceEvent.cs" />

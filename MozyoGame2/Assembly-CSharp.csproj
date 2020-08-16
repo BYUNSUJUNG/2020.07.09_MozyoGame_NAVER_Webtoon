@@ -70,6 +70,10 @@
     <Compile Include="Assets\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Scripts\DollGameScript.cs" />
     <Compile Include="Assets\Scripts\FindPan.cs" />
+    <Compile Include="Assets\Scripts\Icon\AlbumScript.cs" />
+    <Compile Include="Assets\Scripts\Icon\BagScript.cs" />
+    <Compile Include="Assets\Scripts\Icon\MozyoScript.cs" />
+    <Compile Include="Assets\Scripts\Icon\QuestScript.cs" />
     <Compile Include="Assets\Scripts\Mountain\PianoStudyEvent.cs" />
     <Compile Include="Assets\Scripts\Mountain\PianoStudyScript.cs" />
     <Compile Include="Assets\Scripts\Mountain\PicnicEvent.cs" />

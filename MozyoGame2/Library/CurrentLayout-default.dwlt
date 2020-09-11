@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 37
+  controlID: 69
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 399
     height: 308
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 35
+  controlID: 67
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 36
+  controlID: 68
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -335,7 +335,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 100
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,20 +375,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Town/HospitalScript
+    - Assets/Scripts/Town/ClothingStoreScript
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Town/HospitalScript
+  - Assets/Scripts/Town/ClothingStoreScript
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\PC\Desktop\MozyoGame_NAVER_Webtoon\MozyoGame2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 561}
-    m_SelectedIDs: d0450000
-    m_LastClickedID: 17872
-    m_ExpandedIDs: 000000006e40000070400000724000007440000076400000784000007a400000084100001441000000ca9a3b
+    scrollPos: {x: 0, y: 645}
+    m_SelectedIDs: d2410000
+    m_LastClickedID: 16850
+    m_ExpandedIDs: 000000000a4100000c4100000e4100001041000012410000144100001641000018410000c841000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006e40000070400000724000007440000076400000784000007a400000
+    m_ExpandedIDs: 000000000a4100000c4100000e4100001041000012410000144100001641000018410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -447,18 +447,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000b45f000022390000543d00009e3a000000000000b03c0000aa3c0000a03c00005c3a0000143b000072400000c23c0000123f00000e3e000000400000883c0000b43f0000d83f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: HospitalScript
-      m_OriginalName: HospitalScript
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 17872
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -533,7 +533,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -707,10 +707,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 530}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 88f2ffff2af3ffffe6faffffee3b0000a43c0000b43c0000383d0000ec3e0000
+      scrollPos: {x: 0, y: 938}
+      m_SelectedIDs: ae3f0000
+      m_LastClickedID: 16302
+      m_ExpandedIDs: 12fbffffa03b00001e3d0000be3d00007c3f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

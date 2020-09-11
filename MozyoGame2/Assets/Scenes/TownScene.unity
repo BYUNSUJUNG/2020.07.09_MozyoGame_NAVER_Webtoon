@@ -9207,6 +9207,7 @@ GameObject:
   - component: {fileID: 1080775427}
   - component: {fileID: 1080775426}
   - component: {fileID: 1080775425}
+  - component: {fileID: 1080775428}
   m_Layer: 0
   m_Name: ClothingStoreObject
   m_TagString: Untagged
@@ -9286,6 +9287,18 @@ MonoBehaviour:
   BoxObj01: {fileID: 1266804005}
   BoxObj02: {fileID: 1299006131}
   BoxObj03: {fileID: 995428082}
+--- !u!114 &1080775428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080775422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1639df2a6bfba404a85af5e58b994efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1095324746
 GameObject:
   m_ObjectHideFlags: 0
@@ -18104,8 +18117,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1080775427}
-        m_MethodName: Back
+      - m_Target: {fileID: 1080775428}
+        m_MethodName: ClickMethod
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

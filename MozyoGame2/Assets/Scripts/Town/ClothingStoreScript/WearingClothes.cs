@@ -10,18 +10,18 @@ public class WearingClothes : MonoBehaviour
 {
     public GameObject[] clothes = new GameObject[7];
 
-    private string ClothesString; //파일의 모든 텍스트를 string 형태로 저장하기 위해
-    private JsonData ClothesData; //string 형태의 데이터를 Json 형태로 변경하기 위해
+    private string clothesString; //파일의 모든 텍스트를 string 형태로 저장하기 위해
+    private JsonData clothesData; //string 형태의 데이터를 Json 형태로 변경하기 위해
     private string wearingBool; // 옷 착용 여부
     private int iWearingClothesNum; // 입고 있는 옷 번호 // 배열값에 이용 // 데이터를 받을 때 사용
     private string sWearingClothesNum; // 입고 있는 옷 번호 // 데이터를 저장할 때 사용
     
     void Start()
     {
-        ClothesString = File.ReadAllText(Application.dataPath + "/DB/ClothesData.json");
-        ClothesData = JsonMapper.ToObject(ClothesString);
-        wearingBool = ClothesData["wearing"].ToString();
-        iWearingClothesNum = Convert.ToInt32(ClothesData["wearingClothesNum"].ToString());
+        clothesString = File.ReadAllText(Application.dataPath + "/DB/ClothesData.json");
+        clothesData = JsonMapper.ToObject(clothesString);
+        wearingBool = clothesData["wearing"].ToString();
+        iWearingClothesNum = Convert.ToInt32(clothesData["wearingClothesNum"].ToString());
         
     }
 

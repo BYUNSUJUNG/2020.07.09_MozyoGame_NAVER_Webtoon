@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\Town\BeautySalonScript\BeautySalonEvent.cs" />
     <Compile Include="Assets\Scripts\Town\BeautySalonScript\BeautySalonImageChange.cs" />
     <Compile Include="Assets\Scripts\Town\BeautySalonScript\BeautySalonScript.cs" />
+    <Compile Include="Assets\Scripts\Town\BeautySalonScript\ChangingHair.cs" />
     <Compile Include="Assets\Scripts\Town\CafeScript\CafeEvent.cs" />
     <Compile Include="Assets\Scripts\Town\CafeScript\CafeScript.cs" />
     <Compile Include="Assets\Scripts\Town\ClothingStoreScript\ClothingStoreEvent.cs" />

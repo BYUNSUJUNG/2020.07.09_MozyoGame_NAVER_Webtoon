@@ -24,44 +24,46 @@ public class WearingClothes : MonoBehaviour
         iWearingClothesNum = Convert.ToInt32(ClothesData["wearingClothesNum"].ToString());
         
     }
-    /*
-     * json저장
-    Dictionary<string, string> DataDict = new Dictionary<string, string>
-        {
-            {"wearing", wearingBool},
-            {"wearingClothesNum", wearingClothesNum}
-        };
-    string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
-
-    File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
-        Debug.Log("[wearing]: " + wearingBool+ "[wearingClothesNum]"+ wearingClothesNum);
-
-    */
 
 
     // 01옷을 클릭함
-    public void clothes01Click() {
+    public void clothes01Click()
+    {
         // 옷을 이미 입고 있음
-        if (wearingBool.Equals("true")) {
+        if (wearingBool.Equals("true"))
+        {
             // 01옷을 입고 있음 -> 벗음
-            if (iWearingClothesNum==1)
+            if (iWearingClothesNum == 1)
             {
                 wearingBool = "false";
                 clothes[0].SetActive(false);
             }
-            else { // 다른 옷을 입고 있음 -> 해당 옷을 벗기고 01옷을 입힘
+            else
+            { // 다른 옷을 입고 있음 -> 해당 옷을 벗기고 01옷을 입힘
                 // 그대로 옷입고 있기에 wearing(true/false)값은 변경하지 않음
-                clothes[iWearingClothesNum].SetActive(false);
+                clothes[iWearingClothesNum - 1].SetActive(false);
                 iWearingClothesNum = 1;
                 clothes[0].SetActive(true);
             }
 
-        } else { // 옷을 입고 있지 않음 -> 01옷을 입음
+        }
+        else
+        { // 옷을 입고 있지 않음 -> 01옷을 입음
             iWearingClothesNum = 1;
             wearingBool = "true";
             clothes[0].SetActive(true);
         }
-        
+
+        sWearingClothesNum = iWearingClothesNum.ToString();
+        Dictionary<string, string> DataDict = new Dictionary<string, string>
+        {
+            {"wearing", wearingBool},
+            {"wearingClothesNum", sWearingClothesNum}
+        };
+        string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
+
+        File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
+        Debug.Log("[wearing]: " + wearingBool + "[wearingClothesNum]" + iWearingClothesNum);
     } // end of clothes01Click()
 
     // 02옷을 클릭함
@@ -92,6 +94,16 @@ public class WearingClothes : MonoBehaviour
             clothes[1].SetActive(true);
         }
 
+        sWearingClothesNum = iWearingClothesNum.ToString();
+        Dictionary<string, string> DataDict = new Dictionary<string, string>
+        {
+            {"wearing", wearingBool},
+            {"wearingClothesNum", sWearingClothesNum}
+        };
+        string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
+
+        File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
+        Debug.Log("[wearing]: " + wearingBool + "[wearingClothesNum]" + iWearingClothesNum);
     } // end of clothes02Click()
 
     // 03옷을 클릭함
@@ -122,6 +134,16 @@ public class WearingClothes : MonoBehaviour
             clothes[2].SetActive(true);
         }
 
+        sWearingClothesNum = iWearingClothesNum.ToString();
+        Dictionary<string, string> DataDict = new Dictionary<string, string>
+        {
+            {"wearing", wearingBool},
+            {"wearingClothesNum", sWearingClothesNum}
+        };
+        string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
+
+        File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
+        Debug.Log("[wearing]: " + wearingBool + "[wearingClothesNum]" + iWearingClothesNum);
     } // end of clothes03Click()
 
     // 04옷을 클릭함
@@ -152,6 +174,16 @@ public class WearingClothes : MonoBehaviour
             clothes[3].SetActive(true);
         }
 
+        sWearingClothesNum = iWearingClothesNum.ToString();
+        Dictionary<string, string> DataDict = new Dictionary<string, string>
+        {
+            {"wearing", wearingBool},
+            {"wearingClothesNum", sWearingClothesNum}
+        };
+        string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
+
+        File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
+        Debug.Log("[wearing]: " + wearingBool + "[wearingClothesNum]" + iWearingClothesNum);
     } // end of clothes04Click()
 
     // 05옷을 클릭함
@@ -182,6 +214,16 @@ public class WearingClothes : MonoBehaviour
             clothes[4].SetActive(true);
         }
 
+        sWearingClothesNum = iWearingClothesNum.ToString();
+        Dictionary<string, string> DataDict = new Dictionary<string, string>
+        {
+            {"wearing", wearingBool},
+            {"wearingClothesNum", sWearingClothesNum}
+        };
+        string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
+
+        File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
+        Debug.Log("[wearing]: " + wearingBool + "[wearingClothesNum]" + iWearingClothesNum);
     } // end of clothes05Click()
 
     // 06옷을 클릭함
@@ -212,6 +254,16 @@ public class WearingClothes : MonoBehaviour
             clothes[5].SetActive(true);
         }
 
+        sWearingClothesNum = iWearingClothesNum.ToString();
+        Dictionary<string, string> DataDict = new Dictionary<string, string>
+        {
+            {"wearing", wearingBool},
+            {"wearingClothesNum", sWearingClothesNum}
+        };
+        string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
+
+        File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
+        Debug.Log("[wearing]: " + wearingBool + "[wearingClothesNum]" + iWearingClothesNum);
     } // end of clothes06Click()
 
     // 07옷을 클릭함
@@ -242,6 +294,16 @@ public class WearingClothes : MonoBehaviour
             clothes[6].SetActive(true);
         }
 
+        sWearingClothesNum = iWearingClothesNum.ToString();
+        Dictionary<string, string> DataDict = new Dictionary<string, string>
+        {
+            {"wearing", wearingBool},
+            {"wearingClothesNum", sWearingClothesNum}
+        };
+        string json = JsonConvert.SerializeObject(DataDict, Formatting.Indented);
+
+        File.WriteAllText(Application.dataPath + "/DB/ClothesData.json", json);
+        Debug.Log("[wearing]: " + wearingBool + "[wearingClothesNum]" + iWearingClothesNum);
     } // end of clothes07Click()
 
 }

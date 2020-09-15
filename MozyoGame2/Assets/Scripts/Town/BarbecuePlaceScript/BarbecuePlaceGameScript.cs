@@ -11,7 +11,7 @@ public class BarbecuePlaceGameScript : MonoBehaviour {
 	public GameObject meat01;
 	public GameObject meat02;
 	public GameObject meat03;
-	public Text score;
+	//public Text score;
 
     public GameObject Backobj;
 
@@ -49,7 +49,7 @@ public class BarbecuePlaceGameScript : MonoBehaviour {
 			meat03.SetActive(true);    
         }
 
-		score.text = iScore.ToString();
+		//score.text = iScore.ToString();
         
 	}
 }
